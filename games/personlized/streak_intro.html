@@ -1,0 +1,815 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.dream11.com/games/personlized/streak_intro by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Apr 2021 07:08:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <title>DREAM11</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+  <meta name="robots" content="noindex" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
+  <link href="https://d13ir53smqqeyp.cloudfront.net/contain/marketing/landing_pages/favicon.ico" rel="shortcut icon"/>
+  <style>
+    
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family:'Roboto', Droid Sans, Lucida Sans Unicode, Lucida Grande, Helvetica, Georgia, Arial;
+      }
+      .common_header{
+        height: 72px;
+        line-height: 72px;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12);
+      z-index: 1;
+      position: relative;
+      }
+      .d11_logo_link{
+        margin-left: 40px;
+      }
+      .static_container{
+        max-width: 980px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .d11_logo{
+        vertical-align: middle;
+      }
+     
+      .bottom_content_box{
+        display: grid;
+        grid-template-columns: 2fr 1.3fr;
+      }
+      .pkl_player_list{
+        width: 100%;
+      } 
+      
+      
+      .pkl_player_list tr td{
+        font-size: 12px;
+        color: #323232;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+
+      }
+      .pkl_player_list.stats tbody tr td{
+        width: 50%;
+      }
+      .pkl_player_list_heading{
+        font-size: 17px;
+        font-weight: 700;
+        color: #323232;
+        margin-top: 28px;
+        margin-bottom: 18px;
+      }
+      .pkl_team_shedule{
+        background: #FAFAFA;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .pkl_team_shedule h2{
+        text-align: left;
+        font-size: 22px;
+        color: #000;
+      }
+      .pkl_team_shedule table{
+        width: 100%;
+      }
+      .pkl_team_shedule table thead{
+        font-weight: 700;
+        background: #dedede;
+      }
+      .pkl_team_shedule table tr td{
+        font-size: 12px;
+        line-height: 28px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+      }
+      .pkl_team_shedule table tbody tr:nth-child(2n){
+            background: #e8e8e8;
+      }
+      .pkl_team_shedule table, .pkl_team_shedule th, .pkl_team_shedule td {
+        border: 1px solid #9a9a9a;
+      }
+      table.pkl_player_list, .pkl_player_list th, .pkl_player_list td {
+        border: 1px solid #9a9a9a;
+      }
+      .left_static_content_box{
+        padding-right: 30px;
+        display: none;
+      }
+
+      .left_static_content_box_new{
+        padding-right: 30px;
+      }
+      .static_content h1,
+      .static_content h3{
+        font-weight: 700;
+        font-size: 28px;
+        color: #323232;
+        margin-bottom: 10px;
+      }
+      .static_content h2{color: #323232;}
+      .static_content ul{margin-top: 0;}
+      .static_content p{
+        font-weight: 500;
+        font-size: 14px;
+        color: #323232;
+        line-height: 26px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
+      .static_content p a, .static_content li a{
+        text-decoration: none;
+      }
+      .static_content ul li, .static_content ol li{
+        font-weight: 500;
+        font-size: 14px;
+        color: #323232;
+        line-height: 26px;
+      }
+      .banner img{ width: 100%;display: block; }
+      .power_sg{
+        font-size: 12px;
+        color: #A0A0A0;
+        font-weight: 500;
+        margin-bottom: 40px;
+      }
+      .power_sg img{
+        vertical-align: middle;
+        margin-left: 10px;
+      }
+      .other_matches{
+        background: #FAFAFA;
+        padding-top: 15px;
+      }
+      .other_matches h3{
+        text-align: center;
+        margin: 0px;
+      }
+      .match_list_container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: auto;
+      }
+      .match_list{
+        padding-left: 10px;
+      }
+      .match_list ul{
+        list-style: none;
+      }
+      .match_list ul li a, .cricket-player_container ul li a{
+        color: #0078FF;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 28px;
+        font-weight: 500;
+      }
+      .cricket-player_container{margin:15px;}
+
+      .ipl_matches .match_list ul li a{
+        font-size: 11px;
+      }
+
+      .ipl_matches .match_list ul{
+        padding-left: 0px;
+      }
+
+      #breadcrumb{
+        font-size: 13px;
+        margin-bottom: 12px;
+        margin-top: 20px;
+        padding-left: 0px;
+        list-style: none;
+      }
+      #breadcrumb li{
+        display: inline-block;
+        margin-right: 5px;
+      }
+
+      #breadcrumb a[href]{
+        color: #2b3fad; 
+        border-bottom: 1px solid #2b3fad;
+        text-decoration: none;
+      }
+      #breadcrumb a{
+        text-transform: capitalize;
+      }
+      .no_bg{
+        background: none;
+      }
+
+      .last_updated_box{
+        background: #FAFAFA;
+        font-size: 12px;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .last_updated_box.no_bg{
+        background: none;
+      }
+      table.player_info {
+        max-width: 400px;
+        width: 100%;
+        margin-bottom:15px;
+      }
+
+      table.player_info,
+      table.player_info th,
+      table.player_info td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-weight: 500;
+        font-size: 14px;
+        color:#323232;
+
+      }
+
+      table.player_info td {
+        padding: 10px 15px;
+      }
+      .cricket-player_container ul{list-style: none;margin:0;padding:0;display: grid;grid-template-columns:1fr 1fr 1fr 1fr}
+      .career-stats{overflow-x:auto;margin-bottom: 10px;} 
+      .career-stats table{width: 100%;}
+      .career-stats table, .career-stats table th, .career-stats table td{border: 1px solid black;
+        border-collapse: collapse;}
+      .career-stats td {
+        overflow: hidden;
+        padding: 10px 15px;
+        vertical-align: middle;
+        font-size: 14px;
+        overflow-wrap: break-word;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color:#323232;
+      }
+      .career-stats thead td{font-weight: 700;}
+      .career-stats thead{font-weight: bold;}
+      h4.semi_title{margin-bottom: 10px;font-weight: 20px;}
+      .bestIndBatsmen{display: grid;grid-template-columns:1fr 1fr;margin-bottom: 15px;}
+      .bestIndBatsmen a{text-decoration: none;}
+      .career-stats table{margin-bottom: 15px;}
+      @media (max-width:766px){
+        
+        .static_content{padding-left: 20px; padding-right: 20px;}
+        .match_list{padding-left: 0px;}
+        .common_header{text-align: center;}
+        .static_content h1, .static_content h3{font-size: 21px;}
+        .other_matches h3{font-size: 14px;}
+        .match_list_container{margin-top: 10px; padding-bottom: 10px;grid-template-columns: 1fr;}
+        .match_list ul, .ipl_matches .match_list ul{margin: 0px; padding-left: 30px;}
+        .bottom_content_box{ grid-template-columns: 1fr;}
+        .left_static_content_box{padding-right: 0px;}
+        .pkl_team_shedule table{width: 940px;}
+        .pkl_team_shedule{ padding-left: 20px; padding-right: 20px;}
+        .pkl_team_shedule_inner{overflow-x: scroll;}
+        .cricket-player_container ul{grid-template-columns:1fr 1fr 1fr}
+        .bestIndBatsmen{grid-template-columns:1fr;}
+        .bestIndBatsmen table{margin-bottom: 25px;}
+      }
+
+      /* footer css starts here */
+      .footer_top{background: #373737; color: #fff; padding-top: 62px;}
+      .footer_inner{display: grid; /*grid-template-columns: 1.5fr 1fr;*/ grid-template-columns: 3fr 1fr;  grid-template-rows: auto;}
+      .footer_social ul{margin-top: 12px; margin-bottom: 0px; padding-left: 0px; display: inline-block;}
+      .footer_social ul li{float: left; list-style: none;margin-right: 10px;}
+      .footer_social ul li:last-child{margin-right: 0px;}
+      .col2{/*display: grid;*/ /*grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));*/ /*grid-template-columns: 1fr 1.5fr; grid-template-rows: auto;*/}
+      .col1{display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); grid-template-rows: auto; border-right: 1px solid #828282;}
+      .right_col1{display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); grid-template-rows: auto;}
+      .left_link_list ul, .right_link_list ul{padding-left: 0px; list-style: none; margin-top: 0px; margin-bottom: 0px; display: inline-block;}
+      .left_link_list ul li a, .right_link_list ul li a{font-size: 14px; font-weight: 600; font-family: 'nowayregular'; font-style: normal; font-stretch: normal; letter-spacing: normal; text-align: left; color: #ffffff; text-decoration: none;margin-bottom: 25px; display: inline-block;}
+      .membership{padding-left: 20px; text-align: center;}
+      .membership ul{list-style: none; margin-top: 0px; margin-bottom: 0px; padding-left: 0px; display: inline-block;}
+      .membership ul li{float: left; margin-right: 17px;}
+      .membership ul li:last-child{margin-right: 0px;}
+      .membership h3, .our_apps h3,  .sports_partners h3{font-family: 'nowayregular'; font-size: 12px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; color: #ffffff; margin-top: 0px; margin-bottom: 27px;}
+      .sports_partners h3{text-align: center;}
+      .office_address h3{font-family: 'nowayregular'; font-size: 14px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; color: #ffffff; margin-top: 0px; text-align: center;}
+      .app_list { text-align: left; padding-left: 0; margin: 0; list-style: none;}
+      .app_list li {margin-bottom: 10px;}
+      .app_list li a {font-size: 16px;color: #fff;font-family: Arial; text-decoration: none;}
+      .ios a:before { width: 13px; background: url(../../../d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/apple-icon.png) no-repeat; background-size: 100%;}
+      .android a:before { width: 14px; background: url(../../../d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/android-icon.png) no-repeat; background-size: 100%;}
+      .android a:before, .ios a:before { margin-right: 8px; float: left; content: ""; height: 16px; display: inline-block;}
+      .footer_inner{padding-bottom: 29px;border-bottom: 1px solid #828282; margin-bottom: 30px;}
+      .our_apps{ padding-left: 30px;}
+      .office_address{padding-top: 16px; text-align: center; padding-bottom: 15px;}
+      .office_address h3{margin-bottom: 8px;}
+      .address{ font-family: Helvetica;font-size: 14px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.57; letter-spacing: normal; color: #ffffff; padding: 0 10px;}
+      .footer_bottom{ background: #282828; padding-top: 25px; padding-bottom: 25px; text-align: center;}
+      .footer_bottom ul {margin-top: 0px; margin-bottom: 0px; display: inline-block; list-style: none; padding-left: 0px; display: inline-block;}
+      .footer_bottom ul li{float: left;}
+      .footer_bottom ul li a{text-decoration: none;font-size: 16px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; padding-right: 40px; margin-right: 40px; border-right: 1px solid #828282;}
+      .footer_bottom ul li:last-child a{ margin-right: 0px; padding-right: 0px; border-right: 0px;}
+      .sports_partners{padding-left: 10px; text-align: center;}
+      .sports_partners ul li{margin-right: 60px; text-align: center;}
+      .sports_partners ul li img{display: block;}
+      .sports_partners ul li span{ display: inline-block; vertical-align: middle; margin-right: 23px;}
+      .sports_partners ul li:last-child{margin-right: 0px}
+      .sports_partners ul li span:last-child{margin-right: 0px;}
+      .step_inner_wrapper{margin-top: 30px;}
+      .more_link{display: none;}
+      .footer_container{max-width: 1000px; width: 100%; margin: 0 auto;}
+      .sports_partners ul{display: flex; justify-content: center; align-items: center; padding: 0px; margin: 0px; list-style: none; /*flex-direction: row; align-items: center; justify-content: center; display: flex;*/}
+      .disclaimer_box {padding-bottom: 15px;}
+      .disclaimer_box h3 { text-align: center; margin-bottom: 4px; font-size: 10px; color: #929292; font-weight: normal; font-family: Montserrat; margin-top: 0px;}
+      .disclaimer { font-size: 10px; max-width: 540px; width: 90%; margin: 0 auto; color: #929292; text-align: center; font-family: Helvetica;}
+      .right_link_list {padding-left: 20px;}
+      .top_logos_ipl{text-align: center;}
+      .bottom_logos{text-align: center;}
+      .top_logos{margin-top: 30px;}
+      .bottom_logos{margin-top: 30px;}
+      .sports_partners_wrapper { border-bottom: 1px solid #828282; padding-bottom: 30px;}
+      /* footer css ends here */
+
+      #myUL{
+      margin: 0px; 
+      padding-left: 0px; 
+      display: inline-block;
+    }
+    #myUL li{
+      width: 50%;
+      float: left;
+      list-style: none;
+      overflow: hidden;
+          min-width: 350px;
+
+    }
+
+    #myUL li a{ text-decoration: none;  pointer-events: none; cursor: default;}
+    .winner_list{
+      width: 94%;
+      margin: 0 auto;
+      border-radius: 16px;
+      margin-top: -98px;
+      background: #fff;
+      z-index: 1;
+      position: relative;
+      box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+          overflow: hidden;
+      margin-bottom: 30px;
+      box-sizing: border-box;
+
+    }
+    .winner_list h2{
+      color: #1a1a1a;
+      font-size: 36px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+
+    }
+    .winner_list h2 div{
+      color: #2d86f7;
+    }
+    .winner_list h4{
+      color: #1a1a1a;
+      font-size: 24px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+
+    }
+
+    #myInput{
+      margin-top: 32px;
+      width: 100%;
+      font-size: 20px;
+      color: #8f8f8f;
+      padding: 18px 24px;
+      outline: 0;
+          box-sizing: border-box;
+      border: 1px solid #8f8f8f;
+      border-radius: 4px;
+      margin-bottom: 56px;
+    }
+    #myUL li{
+      height: 64px;
+      line-height: 64px;
+    }
+
+    #myUL li a{
+      font-size: 24px;
+      color: #1a1a1a
+    }
+
+      @media (max-width:900px){
+        .col1{padding-left: 15px;}
+        .left_col1{margin-bottom: 40px}
+        .sports_partners ul li span{margin-right: 10px;}
+      }
+
+      @media (max-width:768px){
+        /*footer css*/
+        
+        .footer_inner { grid-template-columns: 2fr 1fr; }
+        .col2 { text-align: center; grid-template-columns: 1fr;}
+        .membership, .sports_partners {padding-left: 0px; }
+        .vivo_ipl_footer{ width: 68px; }
+        .bcci_footer{ width: 50px; }
+        .footer_icc_1{ width: 80px; }
+        .footer_nba{ width: 50px; }
+        .footer_pkl{ width: 49px; }
+        .La_Liga_footer_new{ width: 30px; }
+        .footer_fih_1{ width: 38px; }
+        .footer_hero_new{ width: 31px; }
+        .footer_bbl{ width: 35px; }
+        .nzc_footer{ width: 42px; }
+        .footer_cpl{ width: 63px; }
+        .supersmash_footer{ width: 50px; }
+        .abu_dhabi_footer_new1{ width: 44px; }
+        .MSL_footer_new{ width: 50px; }
+        .ECL_footer{ width: 50px; }
+        .t20_mumbai_logo_new1{ width: 56px; }
+        .kpl_footer{ width: 50px; }
+        .sports_partners ul li{margin-right: 20px;}
+        .sports_partners ul li img{width: 100%;}
+        /*footer css*/
+        .m-schedule table{width: 500px;}
+        .career-stats td{padding: 7px;}
+      }
+
+      @media (min-width:767px){
+        .desktop_banner{display: none;}
+        .mobile_banner{ display: none !important; }
+      }
+
+      @media (max-width:766px){
+        /*mobile_footer*/
+        #footer_second_ul{margin-left: 0px;}
+        .footer_inner{grid-template-columns: 1fr;padding-bottom: 0px;}
+        .footer_top{padding-top: 20px;}
+        .footer_logo img{margin: 0 auto;}
+        .col1{border-right: 0px;}
+        .footer_social{text-align: center;}
+        .left_col1{border-bottom: 1px solid #828282; padding-bottom: 23px; margin-bottom: 13px; text-align: center;}
+        .right_col1{text-align: center; border-bottom: 1px solid #828282; padding-bottom: 13px; margin-bottom: 13px;}
+        .col2{text-align: center;}
+        .membership h3, .our_apps h3, .sports_partners h3{text-align: center; margin-bottom: 14px;}
+        .membership,  .sports_partners{margin-bottom: 40px;}
+        .sports_partners{padding-left: 0px;}
+        .our_apps{text-align: center; padding-left: 0px;}
+        .app_list li{text-align: center; float: left; margin-right: 10px; }
+        .app_list li:last-child{margin-right: 0px;}
+        .app_list{display: inline-block;}
+        .footer_bottom{text-align: center;}
+        .footer_bottom ul li a{padding-right: 10px; margin-right: 10px;}
+        .footer_bottom ul li:nth-child(3) a {padding-right: 0px;border-right: 0px;margin-right: 0px;}
+        .footer_bottom ul li:last-child { clear: both; width: 100%; margin-top: 20px;}
+        .more_link{display: block;}
+        .col2{grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));}
+        .membership{padding-left: 0px;}
+        .col1{padding-left: 0px;}
+        #breadcrumb{padding: 0 20px; line-height: 23px;}
+        .cricket-player_container ul{grid-template-columns:1fr 1fr}
+        /*mobile footer*/
+
+          .d11_logo_link{
+          margin-left: 0px;
+        }
+        .winner_list{padding: 0px 0px 0px 0px; margin-top: -32px; border-radius: 8px;}
+        .winner_list h2{font-size: 18px;}
+        #myInput{margin-top: 10px; margin-bottom: 10px; padding: 10px; font-size: 14px;}
+        #myUL li a{font-size: 18px;}
+        #myUL li {height: 30px;line-height: 30px; min-width: 100%;}
+        .winner_list h4{font-size: 15px;}
+        .banner_title{font-size: 22px;}
+
+        .desktop_banner{display: none !important;}
+        .mobile_banner{ display: block; }
+        .w130{width: 130px !important;}
+      }
+  </style>
+  <script src="../../../d13ir53smqqeyp.cloudfront.net/d11-static-pages/js/jquery-3.2.1.js" type="text/javascript"></script>
+  <script>
+    ;(function() {
+      var queue = []
+      window.D11Data = D11Data = window.D11Data || {}
+      window.D11DataQueue = queue
+      ;['init', 'track'].forEach(function(methodName) {
+        D11Data[methodName] = function() {
+          queue.push({method: methodName, args: arguments})
+        }
+      })
+      var s = document.createElement('script')
+      s.type = 'text/javascript'
+      s.async = true
+      s.src = 'https://d11-web-sdk.dream11.com/sdk/data-highway-sdk/latest'
+      var x = document.getElementsByTagName('script')[0]
+      x.parentNode.insertBefore(s, x)
+    })()
+    D11Data.init({appName: 'com.app.dream11Pwa'})
+  </script>
+
+  <script>
+    D11Data.track('PageLoaded', {page: 'ReferralLandingPage'})
+
+    document.getElementById('download_app').onclick = function(){
+      D11Data.track('DownloadAppButtonClicked',  {page: 'ReferralLandingPage', platform: 'web'})
+      console.log("test")
+    }
+  </script>
+  <script>
+
+
+    const ext_window = window;
+
+    function getAndroidFireEvent() {
+      const event = ext_window.AndroidJSinterface
+        ? ext_window.AndroidJSinterface.fireEvent
+        : null;
+      return (
+        event &&
+        ((payload) => {
+          ext_window.AndroidJSinterface.fireEvent(JSON.stringify(payload));
+        })
+      );
+    }
+
+    function getIOSFireEvent() {
+      const event = ext_window.webkit
+        ? ext_window.webkit.messageHandlers.fireEvent.postMessage
+        : null;
+      return (
+        event &&
+        ((payload) => {
+          ext_window.webkit.messageHandlers.fireEvent.postMessage(payload);
+        })
+      );
+    }
+
+    function isWebView() {
+      return !!(getAndroidFireEvent() || getIOSFireEvent());
+    }
+
+    function fireWebviewEvent() {
+      const payload = {
+        eventType: 'openDeepLink',
+          redirectUrl: "https://www.dream11.com/leagues"
+      }
+      console.log(payload);
+        const event = getAndroidFireEvent() || getIOSFireEvent();
+        if (event) {
+          event(payload);
+        }
+    }
+
+    
+  </script>
+</head>
+<body>
+  <header class="common_header">
+    <div class="static_container" style="text-align: center;">
+      <a class="d11_logo_link" href="../../index.html"><img src="../../../d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/static_logo_red.png" class="d11_logo" width="193" alt=""></a>
+    </div>
+  </header>
+
+
+
+  <div class="static_container">
+    <section class="banner">
+      <img src="../../../d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/streak_intro_static_banner_desktop.png" class="desktop_banner" style="width: 100%;">
+      <img src="../../../d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/streak_intro_static_banner.png" class="mobile_banner" style="width: 100%;">
+    </section>
+    <div class="static_content winner_list">
+      <div style="background: #ffffff;">
+        <table style="width: 100%;" cellpadding="0" cellspacing="0">
+          
+          <tr>
+            <td style="background: #fff7f7; text-align: center; padding-top: 20px;">
+              <div style="font-size: 36px; font-weight: 700; color: #e10000;" id="uje1_spht1"></div>
+              <div style="font-size: 36px; font-weight: 700; color: #1a1a1a; padding-bottom: 10px;" id="uje1_spht2"></div>
+              
+              <img id="uje1_sppbi" src="#" style="width: 80%; margin: 0 auto; max-width: 300px;">
+              <div style="font-size: 14px; line-height: 19px; font-weight: normal; color: #1a1a1a; padding-bottom: 10px; padding-left: 35px; padding-right: 35px;" id="uje1_spht3"></div>
+              <div style="font-size: 8px; line-height: 20px; color: #1a1a1a; padding-bottom: 5px;" id="uje1_spht4"></div>
+              <div style="padding:0 20px 0px 20px">
+                <div onclick="fireWebviewEvent()" style="outline:none; text-decoration:none;display: inline-block; cursor: pointer;margin-bottom: 24px;"><img id="uje1_spctai" src="#" style="max-width: 158px;width:100%;margin:0 auto;"></div>
+              </div>
+              
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0px; background: #f0f0f1;" class="wrapper_width" align="center">
+               <div style="background: #ffffff;">
+                  <table style="width: 100%;" border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td style="padding:20px; ">
+                           <div style="font-family:'Roboto', Droid Sans, Lucida Sans Unicode, Lucida Grande, Helvetica, Georgia, Arial; width: 100%; max-width: 320px; text-align: left; vertical-align: middle; font-size: 14px; line-height: 20px; font-weight: normal; color: #1a1a1a;margin:0 auto" id="uje1_spbt"></div>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="">
+               <div style="max-width: 328px; width: 100%; margin: 0 auto;">
+                  <img id="uje1_spti" src="#" style="width: 100%;">
+               </div>
+            </td>
+          </tr>
+
+          
+          <tr>
+            <td style="padding:0; padding-top: 28px; " align="center"> 
+             <div style="padding:0 20px 0px 20px">
+                <div onclick="fireWebviewEvent()" style="outline:none; text-decoration:none;display: inline-block; cursor: pointer;"><img id="bottomCta" src="#" style="width: 158px;margin:0 auto;"></div>
+              </div>
+              
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0; padding-top: 10px; " align="center"> 
+              <div style="padding:0 20px 30px 20px">
+                <a href="#"  id="uje1_sptncu" style="outline:none; text-decoration:none;display: inline-block; color: #1a1a1a;font-size: 14px;" data-track="off" target="_blank">*Terms & Conditions apply</a>
+              </div>
+            </td>
+          </tr>
+
+
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript">
+    function uuidv4() {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+      });
+    }
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    if( getCookie('__csrf') == "") {
+      var csrfToken = uuidv4();
+      //alert("nocokkie"+csrfToken);
+      document.cookie = "__csrf="+csrfToken+";path=/";
+    }
+
+
+
+  $.ajax({
+    url: "https://www.dream11.com/graphql",
+    method:'post',
+    data: JSON.stringify({"query":"query userTraits($traits: [String]) {  userTraits(traits:$traits){   traits{      traitName,      traitValue   } }}","variables":JSON.stringify({"traits":[""]})}),
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+      'x-csrf': getCookie('__csrf'),
+      'siteId': 1,
+      'Content-Type': 'application/json'
+    },
+    dataType: 'JSON',
+    success: function(test) {
+      console.log(test);
+      var group_trait = test.data.userTraits.traits;
+      console.log(group_trait)
+      group_trait.forEach((item) => {
+        if(item.traitName == 'uje1_spht1'){
+          var uje1_spht1 = group_trait.filter(obj=>obj.traitName==='uje1_spht1');
+          var value_uje1_spht1 = uje1_spht1[0].traitValue
+          $("#uje1_spht1").append(value_uje1_spht1);
+        }else if(item.traitName == 'uje1_spht2'){
+          var uje1_spht2 = group_trait.filter(obj=>obj.traitName==='uje1_spht2');
+          var value_uje1_spht2 = uje1_spht2[0].traitValue
+          $("#uje1_spht2").append(value_uje1_spht2);
+        }else if(item.traitName == 'uje1_spht3'){
+          var uje1_spht3 = group_trait.filter(obj=>obj.traitName==='uje1_spht3');
+          var value_uje1_spht3 = uje1_spht3[0].traitValue
+          $("#uje1_spht3").append(value_uje1_spht3);
+        }else if(item.traitName == 'uje1_spht4'){
+          var uje1_spht4 = group_trait.filter(obj=>obj.traitName==='uje1_spht4');
+          var value_uje1_spht4 = uje1_spht4[0].traitValue
+          $("#uje1_spht4").append(value_uje1_spht4);
+        }else if(item.traitName == 'uje1_spbt'){
+          var uje1_spbt = group_trait.filter(obj=>obj.traitName==='uje1_spbt');
+          var value_uje1_spbt = uje1_spbt[0].traitValue
+          $("#uje1_spbt").append(value_uje1_spbt);
+        }else if(item.traitName == 'uje1_spti'){
+          var uje1_spti = group_trait.filter(obj=>obj.traitName==='uje1_spti');
+          var value_uje1_spti = uje1_spti[0].traitValue
+          $("#uje1_spti").attr("src", value_uje1_spti);
+        }else if(item.traitName == 'uje1_sppbi'){
+          var uje1_sppbi = group_trait.filter(obj=>obj.traitName==='uje1_sppbi');
+          var value_uje1_sppbi = uje1_sppbi[0].traitValue
+          $("#uje1_sppbi").attr("src", value_uje1_sppbi);
+        }else if(item.traitName == 'uje1_spctai'){
+          var uje1_spctai = group_trait.filter(obj=>obj.traitName==='uje1_spctai');
+          var value_uje1_spctai = uje1_spctai[0].traitValue
+          $("#uje1_spctai").attr("src", value_uje1_spctai);
+          $("#bottomCta").attr("src", value_uje1_spctai);
+        }else if(item.traitName == 'uje1_sptncu'){
+          var uje1_sptncu = group_trait.filter(obj=>obj.traitName==='uje1_sptncu');
+          var value_uje1_sptncu = uje1_sptncu[0].traitValue
+          $("#uje1_sptncu").attr("href", value_uje1_sptncu);
+        }
+      });
+    },
+    error: function (test) {
+      console.log(test);
+    }
+  });
+
+    
+    
+  // $.ajax({
+  //     url: "https://int-11-stag.d11dev.com/graphql",
+  //     method:'post',
+  //     data: JSON.stringify({"query":"query userTraits($traits: [String]) {  userTraits(traits:$traits){   traits{      traitName,      traitValue   } }}","variables":JSON.stringify({"traits":[""]})}),
+  //     headers: {
+  //       'Access-Control-Allow-Origin': '*',
+  //       'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+  //       'x-csrf': getCookie('__csrf'),
+  //       'siteId': 1,
+  //       'Content-Type': 'application/json'
+  //     },
+  //     dataType: 'JSON',
+  //     success: function(test) {
+  //       console.log(test);
+  //       var group_trait = test.data.userTraits.traits
+
+  //       var uje1_spht1 = test.data.userTraits.traits[9].traitValue;
+  //       $("#uje1_spht1").append(uje1_spht1);
+
+  //       var uje1_spht2 = test.data.userTraits.traits[11].traitValue;
+  //       $("#uje1_spht2").append(uje1_spht2);
+
+  //       var uje1_spht3 = test.data.userTraits.traits[3].traitValue;
+  //       $("#uje1_spht3").append(uje1_spht3);
+
+  //       var uje1_spht4 = test.data.userTraits.traits[5].traitValue;
+  //       $("#uje1_spht4").append(uje1_spht4);
+
+  //       var uje1_spbt = test.data.userTraits.traits[7].traitValue;
+  //       $("#uje1_spbt").append(uje1_spbt);
+
+  //       var uje1_spti = test.data.userTraits.traits[1].traitValue;
+  //       $("#uje1_spti").attr("src", uje1_spti);
+
+  //       var uje1_sppbi = test.data.userTraits.traits[4].traitValue;
+  //       $("#uje1_sppbi").attr("src", uje1_sppbi);
+
+  //       var uje1_spctai = test.data.userTraits.traits[6].traitValue;
+  //       $("#uje1_spctai").attr("src", uje1_spctai);
+
+  //       var uje1_spctau = test.data.userTraits.traits[10].traitValue;
+  //       $("#uje1_spctau").attr('href', uje1_spctau);
+
+
+
+
+
+  //     },
+  //     error: function (test) {
+  //       console.log(test);
+  //     }
+  // });
+
+
+
+
+
+    
+    
+
+
+  </script>
+</body>
+
+<!-- Mirrored from www.dream11.com/games/personlized/streak_intro by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Apr 2021 07:08:03 GMT -->
+</html>
