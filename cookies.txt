@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.dream11.com	TRUE	/	FALSE	1999999999	dh_user_id	606ee9d0-a4cb-11eb-b12e-414a4cd62aac
+
